@@ -1,6 +1,9 @@
+require "pry"
+
 katz_deli=[]
 
 def line(katz_deli) 
+  binding.pry 
   line_position= []
   if katz_deli.length == 0 
     puts "The line is currently empty."
@@ -10,7 +13,6 @@ def line(katz_deli)
       line_position << "#{number}. #{customer}"
       number +=1 
     end 
-    puts 
+    puts "The line is currently: #{line_positions.join(" ")}"
       
-  
 end 
