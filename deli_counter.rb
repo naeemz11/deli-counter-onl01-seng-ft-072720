@@ -9,6 +9,8 @@ def line(katz_deli)
     katz_deli.each do |customer|
       line_position << "#{number}. #{customer}"
       number +=1 
+    end 
+    puts 
       
   
 end 
