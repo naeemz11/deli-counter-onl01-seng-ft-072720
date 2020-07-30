@@ -1,9 +1,9 @@
-require "pry"
+#require "pry"
 
-katz_deli=["Logan", "Avi", "Spencer"]
+katz_deli=[]
 
 def line(katz_deli) 
-  binding.pry
+  #binding.pry
   other_line= []
   if katz_deli.empty?
     puts "The line is currently empty."
