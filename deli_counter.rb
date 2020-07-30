@@ -1,6 +1,6 @@
 require "pry"
 
-katz_deli=[]
+katz_deli=["Logan", "Avi", "Spencer"]
 
 def line(katz_deli) 
   binding.pry
